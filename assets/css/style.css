@@ -58,3 +58,61 @@ a:focus {
   float: left;
   width: 200px;
 }
+dt {
+  color: Blue;
+}
+dfn {
+  color: red;
+  font-size: 20pt;
+}
+.grammar {
+  color: green;
+}
+.spoken {
+  color: purple;
+}
+table {
+  width: 500px;
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 1px solid black;
+}
+td[rowspan="2"] {
+  background: pink;
+}
+td[rowspan="3"] {
+  background: hotpink;
+}
+thead {
+  background: pink;
+}
+th.next {
+  background: deeppink;
+  color: white;
+}
+tfoot {
+  background: hotpink;
+  font-size: small;
+}
+tbody th {
+  background: deeppink;
+  color: white;
+}
+tbody td {
+  padding: 3px;
+  text-align: center;
+}
+colgroup.sidebar col {
+  width: 70px;
+}
+colgroup.info col {
+  width: 80px;
+}
+colgroup.info {
+  border-left: 2px solid white;
+}
+colgroup col.stripe {
+  background-color: pink;
+}
