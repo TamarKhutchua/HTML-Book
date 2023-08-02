@@ -116,3 +116,31 @@ colgroup.info {
 colgroup col.stripe {
   background-color: pink;
 }
+figure#front-stack {
+  float: left;
+  margin-top: 0px;
+}
+figure#back-stack {
+  float: right;
+  margin-top: 0px;
+}
+.reference {
+  color: red;
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: xx-large;
+}
+article.left220 {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+}
+template dl {
+  width: 250px;
+  border: 1px solid;
+}
+template dt {
+  background: orange;
+  color: white;
+}
