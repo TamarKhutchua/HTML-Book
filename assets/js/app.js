@@ -68,3 +68,17 @@ function getContext() {
   ctx.lineWidth = 2;
   ctx.font = "5em Fantasy";
 }
+
+function multiply(q, p) {
+  let result = parseFloat(q.value) * parseFloat(p.value);
+  if (isNaN(result) || result < 1) return "";
+  else return "Total: $" + result.toFixed(2);
+}
+
+function click() {
+  const pep = document.getElementById("pepperoni");
+  const btn = document.getElementById("btn");
+  btn.addEventListener("click", function () {
+    pep.checked = true;
+  });
+}

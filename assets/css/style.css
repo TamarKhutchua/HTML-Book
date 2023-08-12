@@ -144,3 +144,7 @@ template dt {
   background: orange;
   color: white;
 }
+label {
+  background: Red;
+  color: White;
+}

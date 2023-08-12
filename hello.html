@@ -402,6 +402,129 @@
       <button id="conf">Confirm</button>
     </dialog>
     <canvas id="canvas" width="500" height="150">[Fallback Text]</canvas>
+    <form method="get" action="http://localhost/echo.py">
+      <dl>
+        <dt>User Name:
+        <dd><input type=”text” name=”Name”>
+        <dt>Password:
+        <dd><input type=”password” name=”Pwd”>
+        <dt>Zip Code:
+        <dd><input type=”text” name=”Zip”
+        size=”5” maxlength=”5”>
+        </dl>
+        <input type=”submit” name=”Form” value=”Sender”>        
+    </form>
+    <form method="get" action="http://localhost/echo.py">
+      <p><input type="submit" value="Submit Form"></p>
+      <input type=”color” name=”color” value="#800ff">
+      <input type=”range” name=”range” min=”1” max=”10”>
+      <input type=”time” name=”time”> <br>
+      <input type=”url” name=”url” size=”54”required >
+    </form>
+    <form method="post" action="http://localhost/echo.py">
+      <textarea name="The Future Web" id="#" cols="70" rows="8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quam incidunt doloribus aliquid tempore numquam obcaecati maiores eveniet repellendus odit laboriosam quibusdam assumenda voluptates minima, maxime quae, ipsum, ad aperiam.</textarea>
+      <p><input type="submit" value="Submit Form"></p>
+    </form>
+    <form method="get" action="http://localhost/echo.py">
+      <p>
+        <input type=”checkbox” name=”Send” value=”Details”>
+       
+        <input type=”checkbox” name=”Send” value=”Prices”>
+        </p>
+        <fieldset>
+          <legend>What kind of language is HTML?</legend>
+          <input type=”radio” name=”Definition” value=”Scripting”> <br>
+          <input type=”radio” name=”Definition” value=”Markup”> <br>
+          <input type=”radio” name=”Definition” value=”Programming”checked>
+          </fieldset>          
+      <p><input type="submit"></p>
+    </form>
+    <img src="assets/images/ae8k_iz9e_210520.jpg" width="200" height="120" alt="Sale">
+    <form method="get" action="http://localhost/echo.py"><input type="submit" name="Offer" value="Buy Fish">
+      <input type=”number” id=”qty” name=”Quantity” min=”1” max=”60”>
+      <input type=”hidden” id=”price” name=”Unit Price” value=”24.99”>
+      <output name=”sum” for=”qty price”></output> <br>
+      <oninput=”sum.value=multiply( qty, price )”></oninput>
+      </form>
+      <form method=”POST” action=”http://localhost/upload.py” enctype=”multipart/form-data” >
+      <input type=”file” name=”Upload” size=”70” > <br>
+      <input type=”submit”>
+    </form>
+    <form method=”GET” action=”http://localhost/echo.py” >
+      <fieldset>
+        <legend>Pizza Toppings</legend>
+        <input id=”pepperoni” type=”checkbox”
+        name=”Toppings” value=”Pepperoni”>
+        <input id=”mushroom” type=”checkbox”
+        name=”Toppings” value=”Mushroom”>
+        <input id=”bbqsauce” type=”checkbox”
+        name=”Toppings” value=”BBQ Sauce”>
+        </fieldset>        
+      <input type=”reset” value=”ResetForm”>
+      <input type=”button” value=”ChooseForMe” id=”btn”>
+      <input type=”submit” value=”SubmitForm”>
+    </form>
+    <form method=”GET” action=”http://localhost/echo.py”>
+      <fieldset>
+      <legend>Favorite Color</legend>
+      <input type=”text” name=”Color”>
+      <button type="button" onclick="alert('Enter your favorite color in the text box')">
+      <img src="assets/images/—Pngtree—yellow game progress bar_5420706.png" width="20" height="5" alt="Help"></button>
+      </fieldset>
+    </form>
+    <form method=”GET” action=”http://localhost/echo.py” >
+      <select name=”HTML List Type Selector One” size=”4”>
+        <optgroup label=”List Type 1”>
+        <option value=”UL”>Unordered List</option>
+        <option value=”OL”selected>Ordered List</option>
+        <option value=”DL”>Description List</option>
+        </optgroup>
+      </select>  
+      <select name=”HTML List Type Selector Two”>
+        <optgroup label=”List Type 2”>
+        <option value=”UL”>Unordered List</option>
+        <option value=”OL”>Ordered List</option>
+        <option value=”DL”selected>Description List</option>
+        </optgroup>
+      </select>              
+      <p>
+      <input type=”submit”>
+      </p>
+    </form>
+    <form method=”GET” action=”http://localhost/echo.py”>
+      <datalist id=”browsers”>
+        <option value=”Google Chrome”>
+        <option value=”Firefox”>
+        <option value=”Internet Explorer”>
+        <option value=”Opera”>
+        <option value=”Safari”>
+        <option value=”Microsoft Edge”>
+      </datalist>
+      <label>
+        Choose your browser from this list:
+        <input list=”browsers” name=”myBrowser”>
+      </label>
+      <input type=”submit” value=”Submit”>
+    </form> 
+    <form method=”GET” action=”http://localhost/echo.py”>
+      <fieldset> <legend>Toolbox</legend>
+        <label>Hammer
+          <input type=”checkbox” name=”Toolbox”
+          value=”Hammer” tabindex=”2” checked></label>
+          <label>Screwdriver
+          <input type=”checkbox” name=”Toolbox”
+          value=”Screwdriver” tabindex=”3” ></label>
+          <label>Wrench
+          <input type=”checkbox” name=”Toolbox”
+          value=”Wrench” tabindex=”4” checked></label>
+          <label>Drill
+          <input type=”checkbox” name=”Toolbox”
+          value=”Drill” tabindex=”5”></label>
+          <label>Saw
+          <input type=”checkbox” name=”Toolbox”
+          value=”Saw” tabindex=”6” checked></label>          
+      </fieldset>
+    </form>     
     <footer>
       <small>Copyright &copy; Example Corporation</small>
       <address>www.example.com</address>
